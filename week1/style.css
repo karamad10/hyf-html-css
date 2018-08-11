@@ -39,7 +39,7 @@ body {
 }
 
 .box {
-    background-color: rgb(217, 217, 217);
+    background-color: rgba(248, 248, 248, 0.195);
     width: 22.5em;
     height: 12em;
     border-radius: 10px 50px 10px 10px;
@@ -74,7 +74,7 @@ p {
 }
 
 .info {
-    background-color: rgb(199, 199, 199);
+    background-color: rgba(248, 248, 248, 0.195);
     width: 36.5em;
     height: 20em;
     border-radius: 50px 50px 10px 10px;
