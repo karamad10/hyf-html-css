@@ -7,7 +7,6 @@ body {
 .top {
     display: flex;
     margin-top: 10px;
-    background-color: #3973ac;
     border-radius: 5%;
 }
 
