@@ -78,6 +78,7 @@ p {
     width: 36.5em;
     height: 20em;
     border-radius: 50px 50px 10px 10px;
+    border: 1px dotted #336699;
 }
 
 ol,
