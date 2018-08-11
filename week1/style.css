@@ -29,6 +29,7 @@ body {
     border-radius: 10%;
     margin-left: 50px;
     margin-top: 10px;
+    border: 1.5px; solid black;
 }
 
 .middle,
