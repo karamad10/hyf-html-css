@@ -53,7 +53,7 @@ h3 {
 }
 
 .grid-item {
-    border: 5px groove whitesmoke;
+    border: 2px groove #00b3779c;
     overflow: scroll;
     background: #798d76;
 }
@@ -152,7 +152,7 @@ h3 {
 }
 
 .grid-item {
-    border: 3px groove #2a3132;
+    border: 2px groove #00b3779c;
     overflow: scroll;
     background: #798d76;
 
