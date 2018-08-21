@@ -90,11 +90,11 @@ p {
 }
 
 #grid-floats li:nth-of-type(n+2) {
-    width: 40%;
-    height: 32vh;
+    width: 42%;
+    height: 35vh;
     float: left;
-    margin: 4% 0% 0% 2%;
-    padding: 2%;
+    margin: 1% 1% 1% 1%;
+    padding: 1%;
     background: linear-gradient(45deg, rgba(255,255,255,0) 0%, rgba(0,0,0,1) 100%);
 }
 
@@ -360,7 +360,7 @@ section:nth-child(n+1):after {
 
 @media screen and (max-width: 624px) {
 
-#grid-flex li:nth-child(1) {
+#grid-flex li:nth-child(1), li:last-child {
     width:94%;
     height: 65vh;
     flex: 96%;
@@ -371,7 +371,7 @@ section:nth-child(n+1):after {
 }
 
 #grid-flex li:nth-of-type(n+2) {
-    height: 30vh;
+    height: 35vh;
     flex: 40%;
     margin: 4% 1% 4% 1%;
     padding: 1%;
