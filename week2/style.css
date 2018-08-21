@@ -175,7 +175,8 @@ p {
 }
 
 #grid-floats li:nth-child(-n+2) {
-    width: 48%;
+    width: 46%;
+    margin: 1%;
     height: 21em;
     float: left;
     text-align: center;
