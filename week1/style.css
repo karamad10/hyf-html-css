@@ -51,7 +51,7 @@ body {
     box-shadow:-10px 0px 5px 6px #969090;
 }
 
-
+h1{font-size: 1.1em; margin: 0; padding: 0;}
 
 h2 {
     -webkit-text-fill-color: #32a0a0;
