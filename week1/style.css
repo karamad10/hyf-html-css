@@ -1,0 +1,163 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+
+    background: #d4d4aa;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    -webkit-text-fill-color: #635c5c;
+    font-size: 1.1em;
+}
+
+
+.top {
+    display: flex;
+    flex-direction: row;
+}
+
+.left-side {
+    flex-basis: 76%;
+}
+
+.right-side {
+    flex-basis: 24%;
+
+}
+
+.contact-info {
+    display: flex;
+    margin: 0.8em 0.5em;
+    width: 100%;
+}
+
+.contact-details-list {
+    list-style-type: square;
+    font-size: 1.1em;
+    margin: 1.4em 0;
+    color: #32a0a0;
+}
+
+.img1 {
+    width: 9em;
+    height: 22vh;
+    margin: 0 3em;
+    border-radius: 30%; 
+    border-left:2px solid  #ccccb3;
+    border-bottom:2px solid  #ccccb3;
+    box-shadow:-10px 0px 5px 6px #969090;
+}
+
+
+
+h2 {
+    -webkit-text-fill-color: #32a0a0;
+    font-family: cursive;
+    text-align: center;
+    padding: 0.5%;
+    margin: 0;
+}
+
+.middle {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 1em;
+    margin: 2em 0;
+}
+
+.education {
+    flex-basis: 56%;
+    margin: 0 2%;
+    padding: 0.5%;
+    box-shadow:-10px 0px 5px 6px #969090;
+}
+
+.work-exp {
+    flex-basis: 36%;
+    margin: 0 2%;
+    padding: 0.5%;
+    box-shadow:-10px 0px 5px 6px #969090;
+}
+
+.about {
+    flex-basis: 100%;
+    margin: 2.2em 1em;
+    padding: 1%;
+    box-shadow:-10px 0px 5px 6px #969090;
+}
+
+.about p{
+    text-align: center;
+    font-size: 1.2em;
+    font-style: italic;
+}
+
+
+.extra-info {
+    flex-basis: 25%;
+    height: 90vh;
+    margin: 1%;
+    padding: 1%;
+    box-shadow:-10px 0px 5px 6px #969090;
+    border-radius: 5%;
+    background: #ccccb3;
+    overflow: auto;
+}
+
+ol,
+ul{
+    display: flex;
+    flex-direction: column;
+    padding: 0 1.1em;
+    color: #5e7777;
+}
+
+
+h4 {
+    font-size: 0.9em;
+    margin: 0 1px;
+    padding: 0;
+}
+
+.video {
+    margin: 0.3em 22%;
+    padding: 1px;
+    border: 2px solid #969090;
+    transform:scale(1);
+    transition:transform 0.8s ease-in 0.2s;
+}
+
+.video:hover,
+.hyf-logo:hover{
+    transform:scale(1.5);
+}
+
+.hyf-logo{
+    width: 9em;
+    height: 4em;
+    margin: 0 2.8em;
+    border-radius: 20%;
+    transform:scale(1);
+    transition:transform 0.8s ease-in 0.2s;
+}
+
+hr { 
+    width:80%; 
+    height:3px;
+    background: #32a0a0;
+}
+
+a {
+   color:  #ce6969;
+   text-decoration: none;
+}
+
+a:hover {
+    color: #5e7777;
+}
+
+
+
