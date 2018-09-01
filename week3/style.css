@@ -1,0 +1,549 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+
+}
+body {
+  background: rgb(250, 250, 250);
+}
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
+#main {
+  display: flex;
+  flex-wrap: wrap;
+  background: rgb(250, 247, 247);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#top {
+    height: 30vh;
+}
+
+
+header {
+  display: flex;
+  flex-basis: 100%;
+  height: 15vh;
+  margin: 1.2em 1.6em;
+  padding: 1em;
+}
+
+.google-image {
+    width: 42%;
+    height:6.2vh;
+    margin-right: 25em;
+}
+
+h1 {
+    font-size: 2.2em;
+    text-align: left;
+    font-weight: 240;
+    padding: 4%;
+    flex-basis: 100%;
+    color: #585656;
+}
+
+
+
+#articles {
+  flex-wrap: wrap;
+  margin-bottom: 2em;
+  margin-top: 2em;
+}
+
+.container {
+    
+    position: relative;
+    text-align: left;
+    color: whitesmoke;
+}
+
+.centered {
+    position: absolute;
+    width: 80vw;
+    top: 48vh;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.2em;
+    font-weight: 330;
+    margin: auto;
+}
+
+.text-image {
+    width: 94%;
+    margin: 3%;
+    height: 55vh;
+}
+
+#articles .option-box {
+   display: flex;
+   padding: 0;
+   background: white;
+   margin: 3%;
+   height: 26vh;
+   box-shadow: 1px 1px 2px 2px #ccc;
+}
+
+#articles .box-image {
+  width: 18vw;
+  height: 20vh;
+  margin: 16px 20px;
+}
+
+
+#articles P {
+    font-size: 1.2em;
+    width: 60%;
+    text-align: left;
+    margin: auto;
+}
+
+#articles span {
+    display: flex;
+    flex-direction: column;
+    margin-top: 4px;
+    color: rgb(196, 196, 196);
+    font-size: 12px;
+    font-weight: 550;
+}
+
+.box-span {
+ font-size: 32px;
+ font-weight: 700;
+}
+
+#extra-options {
+    flex-basis: 100%;
+    padding: 2%;
+    background: rgb(250, 250, 250);
+}
+
+ #extra-options h2 {
+    font-size: 1.4em;
+    font-weight: 440;
+    margin: 0;
+    color: #252424;
+}
+
+#extra-options h3 {
+    font-size: 1.2em;
+    font-weight: 400;
+    margin-top: 1.8em;
+    color: #424242;
+}
+
+.resources-list {
+    font-size: 1.1em;
+    list-style-type: none;
+    color: #3367d6;
+    padding: 0;
+}
+
+
+#extra-options a {
+    font-size: 1.1em;
+    color: rgba(46, 46, 240, 0.795);
+    text-decoration: none;
+    margin-top: 1.1em;
+}
+
+li {
+    margin: 10px 0;
+}
+
+#extra-options p {
+    margin: 2em 0;
+    padding: 0;
+
+}
+
+
+#tools {
+    flex-basis: 100%;
+    padding: 3%;
+    background: rgb(250, 250, 250);
+}
+
+#tools h2 {
+    margin: 2em 0;
+}
+
+#tools .box-image {
+   width: 22vw;
+   height: 20vh;
+}
+
+#tools P {
+    font-size: 1.1em;
+    width: 60%;
+    text-align: left;
+    margin: auto;
+}
+
+#tools .option-box {
+   display: flex;
+   flex-wrap: wrap;
+   background: white;
+   margin: 1em;
+   box-shadow: 1px 1px 2px 2px #ccc;
+}
+
+#tools span {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2em;
+    font-size: 12px;
+    font-weight: 550;
+    color: rgba(68, 68, 223, 0.795);
+}
+
+#extra {
+    display: flex;
+    margin: 3em auto;
+}
+
+#extra button {
+   font-size: 1em;
+   font-weight: 700;
+   background: #3063d1;
+   color: white;
+   padding: 0.6em;
+}
+
+#google-info {
+    background: #3367d6;
+    flex-basis: 100%;
+    padding: 1%;
+}
+.idk {
+    margin: 30px 12px;
+}
+
+#google-info h1 {
+    flex-basis: 100%;
+    color: white;
+    font-size: 1.4em;
+    font-weight: 300;
+    line-height: 1.4em;
+}
+
+#sub-button {
+    display: flex;
+}
+
+#sub-button button {
+   font-size: 1.1em;
+   font-weight: 480;
+   background: white;
+   color: #3063d1;
+   padding: 0.7em;
+   margin: 0em 1em 3.5em 1.3em;
+}
+
+hr {
+    width:96%; 
+    height:1px;
+}
+
+h5 {
+    font-size: 1em;
+    color: white;
+    margin: 2.3em 1em 1em 1.8em;
+}
+
+#links {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 6px;
+}
+
+#links a {
+    font-size: 14px;
+    color: white;
+    text-decoration: none;
+    line-height: 1em;
+    padding: 1px 5px;
+    margin: 8px 8px;
+}
+
+#links a:hover, #extra button:hover, #tools .box-span:hover {opacity: 0.7;};
+
+#google-info .icons {
+    margin: 55px 60px 0px 20px;
+}
+
+
+#top .more-tools, .pc-only, .pc-nav, #pc-sub-button {
+    visibility: hidden;
+}
+#pc-head {visibility: hidden;}
+
+
+@media screen and (min-width: 680px)  {
+
+#articles {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    margin: 0;
+    line-height: 40px;
+    overflow: hidden;
+    }
+
+#articles .pc-flex {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 11px;
+}    
+
+#articles .option-box, #tools .option-box {
+   display: flex;
+   flex-direction: column;
+   padding: 0;
+   width: 46%;
+   margin: 2%;
+   height: 55vh;
+   box-shadow: 1px 1px 2px 2px #ccc;
+   background: white;
+}
+
+#articles P, #tools p {
+    font-size: 1.1em;
+    width: 60%;
+    text-align: center;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+#articles .box-image {
+   width: 54%;
+   margin: 4px;
+   padding: 4px;
+   align-self: center;
+}
+
+#tools .box-image {
+    width: auto;
+    height: auto;
+}
+#extra-options #pc-menu {
+   display: flex;
+   flex-wrap: wrap;
+}
+
+#extra-options .menu-box {
+    width: 44.333%;
+    
+}
+
+#tools {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    margin: 0;
+    overflow: hidden;
+}
+
+
+.another-headline {
+    margin: 30px 12px;
+}
+
+#google-info h1 {
+    margin: 1em 1em 0em 1em;
+    width: 60%;
+}
+#google-info button {
+    padding: 10px 20px;
+    margin: 0em 1em 3em 3.2em;
+}
+
+#google-info button:hover {color: #567ed4;}
+#top .more-tools, .pc-only, .pc-nav, #pc-sub-button {
+    visibility: hidden;
+}
+
+}
+
+@media screen and (min-width: 999px)  {
+    
+#top {
+    background-image: URL(./images/bg121.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 80vh;
+}
+
+#top .more-tools, .pc-only, .pc-nav, #pc-sub-button {
+    visibility: visible;
+}
+#pc-head {visibility: visible;}
+#top .google-image {visibility: hidden;}
+
+#top header {
+    padding: 5px;
+    margin: 5px;
+    
+    }
+
+#top h1 {
+    font-size: 37px;
+    margin: 1% 6%;
+    padding-bottom: 14px;
+    line-height: 55px;
+    }    
+
+
+
+.pc-only {
+    font-size: 20px;
+    margin: 1% 10%;
+    
+}
+.pc-nav {
+    position: relative;
+    left: 44%;
+    top: 1px;
+    margin: 0 5em;
+}
+
+#top a {
+    color: rgb(26, 23, 23);
+    text-decoration: none;
+    font-size: 18px;
+    padding: 20px;
+}
+
+#top a:hover {
+    background: #ece5e5;
+}
+
+#top button {
+   font-size: 14px;
+   font-weight: 550;
+   background: #3063d1;
+   color: white;
+   padding: 1.1em;
+   margin: 1% 10%;
+}
+
+#top button:hover {background: #567ed4;}
+
+#top .more-tools {
+    width: 24.5vw;
+    font-weight: 550;
+    position: relative;
+    color: #2256c5;
+    left: 73%;
+    bottom: 11%;
+}
+
+#top #arrow-forward {
+    fill: #2256c5;
+    padding-top: 3px;
+}
+
+#articles {
+    padding: 10px;
+    margin: 0;
+    line-height: 30px;  
+    overflow: hidden;
+    }
+
+#pc-head, .another-headline {
+    margin: 1em 1.8em;
+    color: rgb(98, 107, 117);
+}
+
+
+.centered {
+    position: absolute;
+    width: 42vw;
+    top: 47vh;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1em;
+    text-align: left;
+}
+
+#articles .pc-flex {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 11px;
+}
+
+#articles .container {
+    position: relative;
+    text-align: center;
+    color: whitesmoke;
+    width: 49%;
+    margin: 0.5%;
+    padding: 0;
+}
+
+#articles .option-box {
+   display: flex;
+   padding: 1%;
+   width: 24%;
+   margin: 2% 0.5%;
+   background: white;
+   box-shadow: 1px 1px 2px 2px #ccc;
+}
+
+#extra-options #pc-menu {
+   display: flex;
+   align-content: space-between;
+}
+
+#extra-options .menu-box {
+    width: 33.333%;
+    
+}
+
+#tools .option-box {
+   display: flex;
+   padding-bottom: 5px;
+   width: 23%;
+   margin: 2% 1%;
+}
+
+#tools p {
+    text-align: left;
+    font-size: 1em;
+    width: 98%; 
+    padding: 2px;
+    color: rgb(75, 72, 72);
+}
+
+
+
+#extra button {
+    font-size: 0.8em;
+    font-weight: 600;
+    padding: 1em;
+}
+#extra button:hover {background: #567ed4;}
+
+#google-info h1 {
+    padding: 2%;
+    margin-left: 7%;
+    font-size: 1.9em;
+}
+
+#sub-button button {
+    margin-left: 9.2%;
+}
+#google-info .icons {
+    margin: 1% 2%; 
+}
+
+}
